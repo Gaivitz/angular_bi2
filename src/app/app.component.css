@@ -1,6 +1,57 @@
-.c1
+.f_up_banner
 {
-  background-color: orange;
-  height:90%;
+  background-image: url('../assets/coop.png') ;
+  background-repeat: no-repeat;
+  background-attachment: relative;
+}
+.in_mid_banner
+{
+  margin-top: 100%;
+  background-color: aqua;
+  height: 14%;
+}
+.in_mid_banner1
+{
+  background-color: rgb(27,51,101);
+
+}
+.in_mid_banner2
+{
+  background-color:rgb(56,108,245);
+
 }
 
+.in_low_banner1
+{
+  height: 100%;
+  background-color: rgb(13,43,110);
+}
+.bigMap
+{
+  background-image: url('../assets/ThaiMapp.png');
+}
+.t_up_banner
+{
+  height:35%;
+}
+.t_up_banner1
+{
+  background-color: yellow;
+
+}
+.t_up_banner2
+{
+background-color: #31bba3;
+}
+.t_low_right
+{
+  height: 300%;
+}
+.t_low_right1
+{
+    background-color: #345543;
+}
+.t_low_right2
+{
+    background-color: #ABCCBA;
+}
