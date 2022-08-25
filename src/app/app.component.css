@@ -89,7 +89,7 @@
 .in_thai_banner
 {
   background-color:rgb(40,76,151);
-  height:140%;
+  height:130%;
 
 }
 .thai_pic
@@ -97,12 +97,14 @@
   margin-top: 70%;
   margin-left: 10.5%;
 }
-.in_low_banner1
+.in_low_banner
 {
-  height: 55%;
+  margin-left:-2.5%;
+  height:55%;
   background-color: rgb(13,43,110);
-
 }
+
+
 .bigMap
 {
   background-image: url('../assets/ThaiMapp.png');
@@ -132,10 +134,10 @@
   height: 215%;
   width:102%;
 }
-.t1 > th
+.t1
 {
     color: #FFFFFF;
-    border-bottom: 1pt solid white;
+
 }
 tr
 {
