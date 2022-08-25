@@ -1,5 +1,57 @@
+.nea1
+{
+    font-family: "DB Heavent";
+    font-size: 96px;
+    font-weight: 400;
 
+    color: #FFFFFF;
+
+}
+.nea2
+{
+    font-family: "DB Heavent";
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.nea3
+{
+  font-family: "DB Heavent";
+  font-size: 60px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.nea4
+{
+  font-family: "DB Heavent";
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.nea5
+{
+  font-family: "DB Heavent";
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.normal_people
+{
+  padding-top: 35%;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: "DB Heavent";
+  font-weight: 400;
+}
+.legal_people
+{
+  padding-top: 35%;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: "DB Heavent";
+  font-weight: 400;
+}
 .logo1
+
 {
   height:120px;
   border-style: dotted;
@@ -13,17 +65,13 @@
 }
 .t_left_banner1
 {
-  margin-left:-6%;
-  margin-top:11%;
-  border-style:dashed;
-  height: 444%;
   background-color: rgb(34,61,111);
+  margin-right:-2.5%;
 }
 
 .in_mid_banner
 {
-  margin-top: 100%;
-
+  margin-top:-5%;
   height: 25%;
 }
 .in_mid_banner1
@@ -51,6 +99,7 @@
 {
   height: 55%;
   background-color: rgb(13,43,110);
+
 }
 .bigMap
 {
@@ -64,11 +113,12 @@
 }
 .t_up_banner1
 {
-  height:150%;
+  height:140%;
 }
 .t_up_banner2
 {
-  background-color: #ABCCAF;
+  background-color: rgb(52,89,160);
+  height:150%;
 }
 .t_low_left
 {
@@ -77,20 +127,36 @@
 .t_low_right
 {
   margin-top: 10.4%;
-  height: 208%;
-  width:104.5%;
+  height: 215%;
+  width:102%;
+}
+.t1 > th
+{
+    color: #FFFFFF;
+    border-bottom: 1pt solid white;
+}
+tr
+{
+  color:#FFFFFF;
 }
 .t_low_right1
 {
-    margin-top: 0.5%;
-    margin-bottom: -1.5%;
+
+    margin-bottom: -3.75%;
     background-image: url('../assets/cargoo.png');
+    background-repeat: no-repeat;
     height:200%;
     margin-right:-5%;
 }
+.cus_jur
+{
+  font-size: 48px;
+  font-family: "DB Heavent";
+}
 .world_map
 {
-  width:100%;
+  height:25%;
+  width:100%
 }
 .t_low_right2
 {
