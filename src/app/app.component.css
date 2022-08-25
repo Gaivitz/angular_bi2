@@ -1,28 +1,30 @@
+
+.logo1
+{
+  height:120px;
+  border-style: dotted;
+}
 .f_up_banner
 {
-  background-image: url('../assets/coop.png') ;
+  background-image: url('../assets/coop2.png') ;
   background-repeat: no-repeat;
   background-attachment: relative;
-  margin-right:-0.5%;
+  margin-right:-1.5%;
 }
 .t_left_banner1
 {
-  margin-left:-1.95%;
-  margin-top: 10.5%;
-  margin-right: 0.5%;
+  margin-left:-6%;
+  margin-top:11%;
   border-style:dashed;
-  height: 426%;
+  height: 444%;
+  background-color: rgb(34,61,111);
 }
-.thai_img
-{
-  margin-left: 7.8%;
-  margin-top:66%;
-}
+
 .in_mid_banner
 {
   margin-top: 100%;
-  background-color: aqua;
-  height: 14%;
+
+  height: 25%;
 }
 .in_mid_banner1
 {
@@ -36,14 +38,18 @@
 }
 .in_thai_banner
 {
-
   background-color:rgb(40,76,151);
-  height:114.5%;
-  margin-right:-1.5%;
+  height:140%;
+
+}
+.thai_pic
+{
+  margin-top: 70%;
+  margin-left: 10.5%;
 }
 .in_low_banner1
 {
-  height: 39.5%;
+  height: 55%;
   background-color: rgb(13,43,110);
 }
 .bigMap
@@ -54,14 +60,15 @@
 {
   height:30%;
   width: 101%;
+
 }
 .t_up_banner1
 {
-  height:120%;
+  height:150%;
 }
 .t_up_banner2
 {
-  background: #ABCCAF;
+  background-color: #ABCCAF;
 }
 .t_low_left
 {
@@ -70,13 +77,16 @@
 .t_low_right
 {
   margin-top: 10.4%;
-  height: 196%;
+  height: 208%;
   width:104.5%;
 }
 .t_low_right1
 {
+    margin-top: 0.5%;
+    margin-bottom: -1.5%;
     background-image: url('../assets/cargoo.png');
     height:200%;
+    margin-right:-5%;
 }
 .world_map
 {
@@ -87,4 +97,3 @@
     margin-right: -5%;
     background-color: #ABCCBA;
 }
-
