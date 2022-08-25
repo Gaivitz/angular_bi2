@@ -66,7 +66,9 @@
 .t_left_banner1
 {
   background-color: rgb(34,61,111);
-  margin-right:-2.5%;
+  height:436%;
+  color:#FFF;
+  font-weight: bold;
 }
 
 .in_mid_banner
