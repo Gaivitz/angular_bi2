@@ -5,18 +5,26 @@
         <div class="row logo1"></div>
     </div>
       <div class="col-sm-3 f_up_banner">
+            <font face="DB Heavent">
             <p class="nea1">NEA</p>
             <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการกว่า</p>
             <p class="nea3">6,747 <span class="nea32">ครั้ง</span></p>
             <p class="nea4">รวมเป็นประชาชนและผู้ประกอบการมากกว่า</p>
             <p class="nea5">3,485 <span class="nea52">คน</span></p>
+            </font>
+            <font face="DB Heavent">
             <div class="row in_mid_banner">
+
                 <div class="col in_mid_banner1"><p class="legal_people">24 <span><p>นิติบุคคล</p></span></p></div>
                 <div class="col in_mid_banner2"><p class="normal_people">3,459 <span><p>บุคคลทั่วไป</p></span></p></div>
               </div>
 
+              </font>
+
             <div class="col in_low_banner">
+              <font face="DB Heavent">
                 <div class="col in_low_banner1">
+
               <h3><p style="color:#FFF" class="tops">กิจกรรมที่มีผู้ประกอบการ NEA เข้าร่วม</p></h3>
               <table class="t1">
                 <tr>
@@ -50,7 +58,8 @@
                   </tr>
 
                 </table>
-                  </div>
+              </div>
+            </font>
             </div>
         </div>
 
@@ -70,7 +79,7 @@
                 </div>
                 <div class="col t_up_banner2">
                   <h2><p style="color:#FFF" class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p></h2>
-                  <table>
+                  <table class="t2">
                       <tr>
                           <th>ประเทศ</th>
                           &nbsp;
@@ -104,22 +113,51 @@
 
                 <div class="col">
                     <div class="col t_left_banner1">
-                      <h4><p>Top 10 หลักสูตรยอดนิยม NEA (E-learning)</p></h4>
+                      <h4><p class="toptal">Top 10 หลักสูตรยอดนิยม NEA (E-learning)</p></h4>
                       <p style="color:#79FE6E;font-size: 28px;">การค้าระหว่างประเทศ</p>
-                      <p style="color:#FFF;">1. หลักสูตรแพลตฟอร์มออนไลน์ตลาดใหม่ไร้พรมแดน: บทบาทของ Metaverse ในไทย 2. หลักสูตร ออกแบบเนื้อหาเพื่อนำเสนองานเล่าอย่างไรให้เข้าใจ พูดอย่างไรให้น่าฟััง: เจรจาต่อรองทางธุรกิจเพื่อการค้าระหว่างประเทศ</p>
+                      <p style="color:#FFF;">1. หลักสูตรแพลตฟอร์มออนไลน์ตลาดใหม่ไร้พรมแดน: บทบาทของ Metaverse ในไทย
+                      <br> 2. หลักสูตร ออกแบบเนื้อหาเพื่อนำเสนองานเล่าอย่างไรให้เข้าใจ พูดอย่างไรให้น่าฟััง: เจรจาต่อรองทางธุรกิจเพื่อการค้าระหว่างประเทศ</p>
                     </div>
                 </div>
                 <div class="col" >
                     <div class = "row t_low_right">
-                          <div class="row t_low_right1">4-1-1
-
+                          <div class="col t_low_right12">
+                              <p>มูลค่าส่ง​<br>ออกรวม</p>
+                              <select [(ngModel)]="is_selected">
+                                  <option value=''>2021</option>
+                                  <option value="1">2022</option>
+                                  <option value="2">2023</option>
+                              </select>
                           </div>
+                          <div class="col t_low_right13">
+                                <table class="tbl_rec">
+                                    <tr>
+                                        <th>ประเทศ</th>
+                                        <th>มูลค่าสูงสุด(ลบ.)</th>
+                                    </tr>
 
+                                    <tr>
+                                      <td>TH </td>
+                                      <td>118</td>
+                                  </tr>
+                                  <tr>
+                                    <td>VT</td>
+                                    <td>1120</td>
+                                </tr>
+                                <tr>
+                                  <td>USA</td>
+                                  <td>121</td>
+                              </tr>
+                              <tr>
+                                <td>UK</td>
+                                <td>122</td>
+                            </tr>
+                                <p style="font-weight: bold;color:#FFF;">รวม:999</p>
+                                </table>
+                          </div>
                       </div>
-                      <div class = "row t_low_right">
-                          <div class="row t_low_right2">4-1-2
+                      <div class = "row t_low_right2">
 
-                          </div>
                       </div>
 
                 </div>

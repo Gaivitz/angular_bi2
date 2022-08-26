@@ -1,6 +1,7 @@
+
 .nea1
 {
-    font-family: "DB Heavent";
+
     font-size: 96px;
     font-weight: 400;
 
@@ -9,28 +10,35 @@
 }
 .nea2
 {
-    font-family: "DB Heavent";
     font-size: 32px;
     color: #FFFFFF;
 }
 .nea3
 {
-  font-family: "DB Heavent";
+
   font-size: 60px;
   font-weight: 400;
   color: #FFFFFF;
 }
 .nea4
 {
-  font-family: "DB Heavent";
+
     font-size: 32px;
     color: #FFFFFF;
 }
 .nea5
 {
-  font-family: "DB Heavent";
+
     font-size: 60px;
     color: #FFFFFF;
+}
+.toptal
+{
+  font-weight: bold;;
+}
+.tops
+{
+  font-weight: bold;
 }
 .normal_people
 {
@@ -62,6 +70,15 @@
   background-repeat: no-repeat;
   background-attachment: relative;
   margin-right:-1.5%;
+}
+.t2
+{
+  color:#FFF;
+  border-top: 1pt solid #FFF;
+}
+.top_five
+{
+  color:#FFF;
 }
 .t_left_banner1
 {
@@ -130,32 +147,35 @@
 }
 .t_low_right
 {
-  margin-top: 10.4%;
-  height: 215%;
+  margin-top: 2%;
+  height: 110%;
   width:102%;
+  background-color: rgb(37,101,111);
+}
+.t_low_right2
+{
+  height: 110%;
+  width:102%;
+  background-color: rgb(40,255,40);
 }
 .t1
 {
     color: #FFFFFF;
+    border-top: 1pt solid #FFF;
 
 }
-tr
-{
-  color:#FFFFFF;
-}
-.t_low_right1
-{
 
-    margin-bottom: -3.75%;
-    background-image: url('../assets/cargoo.png');
-    background-repeat: no-repeat;
-    height:200%;
-    margin-right:-5%;
+.t_low_right12
+{
+  margin-top: 8%;
+  margin-left: 20%;
+  height:20%;
+
 }
+
 .cus_jur
 {
   font-size: 48px;
-  font-family: "DB Heavent";
 }
 .world_map
 {
