@@ -4,9 +4,7 @@
 
     font-size: 96px;
     font-weight: 400;
-
     color: #FFFFFF;
-
 }
 .nea2
 {
@@ -34,7 +32,9 @@
 }
 .toptal
 {
-  font-weight: bold;;
+  font-size: 32px;
+
+  font-weight: 500px;
 }
 .tops
 {
@@ -59,7 +59,6 @@
   font-weight: 400;
 }
 .logo1
-
 {
   height:120px;
   border-style: dotted;
@@ -74,7 +73,6 @@
 .t2
 {
   color:#FFF;
-  border-top: 1pt solid #FFF;
 }
 .top_five
 {
@@ -87,7 +85,10 @@
   color:#FFF;
   font-weight: bold;
 }
-
+.tbl_rec
+{
+  color : #FFF;
+}
 .in_mid_banner
 {
   margin-top:-5%;
@@ -152,12 +153,7 @@
   width:102%;
   background-color: rgb(37,101,111);
 }
-.t_low_right2
-{
-  height: 110%;
-  width:102%;
-  background-color: rgb(40,255,40);
-}
+
 .t1
 {
     color: #FFFFFF;
@@ -175,6 +171,7 @@
 
 .cus_jur
 {
+  color:rgb(52,79,110);
   font-size: 48px;
 }
 .world_map
@@ -185,5 +182,6 @@
 .t_low_right2
 {
     margin-right: -5%;
+    height:120%;
     background-color: #ABCCBA;
 }
