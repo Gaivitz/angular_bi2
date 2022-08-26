@@ -17,6 +17,15 @@
   font-size: 60px;
   font-weight: 400;
   color: #FFFFFF;
+
+}
+.nea32
+{
+    font-size: 16px;
+}
+.nea52
+{
+  font-size: 16px;
 }
 .nea4
 {
@@ -73,6 +82,7 @@
 .t2
 {
   color:#FFF;
+
 }
 .top_five
 {
@@ -150,7 +160,8 @@
   margin-top: 2%;
   height: 110%;
   width:102%;
-  background-color: rgb(37,101,111);
+  background-image: url('../assets/cargoo2.png');
+  background-repeat: no-repeat;
 }
 
 .t1
@@ -183,4 +194,5 @@
     margin-right: -5%;
     height:120%;
     background-color: #ABCCBA;
+
 }
