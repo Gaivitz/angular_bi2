@@ -20,7 +20,7 @@ export class AppComponent implements OnInit{
       activity_name:"activiOnline Business Matching",attendee:23
     },
     {
-      activity_name:"งานแสดงสินค้าในประเทศ",attendee:1
+      activity_name:"งานแสดงสินค้าในประเทศ",attendee:100
     },
     {
       activity_name:"งานแสดงสินค้าต่างประเทศ",attendee:28
@@ -52,7 +52,7 @@ export class AppComponent implements OnInit{
       countries:"Thailand",values:123,
     },
     {
-      countries:"The United States of America",attendee:120
+      countries:"The United States of America",values:120
     },
     {
       countries:"China",values:119
