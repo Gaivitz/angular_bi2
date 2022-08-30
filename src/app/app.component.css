@@ -125,7 +125,7 @@
 }
 .tbl_rec
 {
-  font-size: 20px;
+  width: 90%;
   color : #FFF;
 }
 .tbl_rec, tr:first-of-type
@@ -192,7 +192,7 @@
 .t_low_right
 {
   height:100%;
-  margin-bottom:-20%;
+  margin-bottom:-30%;
   background-image: url('../assets/cargoo2.png');
   background-repeat: no-repeat;
 }
@@ -205,6 +205,11 @@
 .t_low_right12
 {
   margin-bottom: 15%;
+}
+.t_low_right13
+{
+  white-space: nowrap;
+
 }
 
 .cus_jur
@@ -234,5 +239,5 @@
 .t_low_right2
 {
     margin-right: -5%;
-    height:120%;
+    height:100%;
 }
