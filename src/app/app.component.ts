@@ -14,19 +14,19 @@ export class AppComponent implements OnInit{
   ]
   mock_tbl_2 = [
     {
-      activity_name:"Thaitrad",attendee:305,
+      activity_name:"Thaitrade.com",attendee:305,
     },
     {
       activity_name:"activiOnline Business Matching",attendee:23
     },
     {
-      activity_name:"งานแสดงสินค้าในประเทศ",attendee:100
+      activity_name:"การแสดงสินค้านานาชาติในประเทศ",attendee:100
     },
     {
-      activity_name:"งานแสดงสินค้าต่างประเทศ",attendee:28
+      activity_name:"งานแสดงสินค้าในต่างประเทศ",attendee:28
     },
     {
-      activity_name:"SMEs Proactive",attendee:9
+      activity_name:"SMEsPro-Active",attendee:9
     },
   ]
 
@@ -63,6 +63,29 @@ export class AppComponent implements OnInit{
     {
       countries:"Korea",values:117
     },
+  ]
+  mock_tbl_7= [
+    {
+      amounts:139,percentage:"3.46%" ,provinces:"เชียงราย" ,course_name:"หลักสูตรสตาร์ทอัพเบื้องต้น"
+    },
+    {
+      amounts:356.8,percentage:"86%" ,provinces:"นครราขสีมา" ,course_name:"หลักสูตรคติเชิงออกแบบ"
+    },
+    {
+      amounts:30,percentage:"0.7%" ,provinces:"ราชบุรี" ,course_name:"หลักสูตรธุรกิความงามระหว่างประเทศ"
+    },
+    {
+      amounts:23,percentage:"0.57%" ,provinces:"พระนครศรีอยุธยา" ,course_name:"หลักสูตรภาษาจีนระหว่างประเทศ"
+    },
+    {
+      amounts:1592,percentage:"39%" ,provinces:"กรุงเทพและปริมณฑล" ,course_name:"หลักสูตรออกแบบกราฟฟิคความงามภายในประเทศ"
+    },
+    {
+      amounts:77,percentage:"1.92%" ,provinces:"ชลบุรี" ,course_name:"หลักสูตรออกแบบกราฟฟิคเพื่อการค้ายุคใหม่"
+    },
+    {
+      amounts:117,percentage:"2.95%" ,provinces:"ภาคใต้" ,course_name:"หลักสูตรสร้างแบรนด์ในยุคดิจิตอล"
+    }
   ]
   is_selected:any=[]
   resp:any

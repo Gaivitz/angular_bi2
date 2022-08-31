@@ -4,14 +4,14 @@
     <div class="row logo">
       <font face="DB Heavent">
 
-        <div class="logo1"><img [src]=" '../assets/logo1.png' ">E-learning</div>
+        <div class="logo1"><img [src]=" '../assets/logo1.png' ">NEA(E-Academy)</div>
       </font>
     </div>
       <div class="col-sm-3 f_up_banner">
             <font face="DB Heavent" *ngFor="let mockz of mock_tbl_1">
             <p class="nea1">NEA</p>
             <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการกว่า</p>
-            <p class="nea3">{{mockz.shareholders}} <span class="nea32">ราย</span></p>
+            <p class="nea3">{{mockz.shareholders}} <span class="nea32">ครั้ง</span></p>
             <p class="nea4">รวมเป็นประชาชนและผู้ประกอบการมากกว่า</p>
             <p class="nea5">{{mockz.peoples}} <span class="nea52">คน</span></p>
             <p class="nea6">จากหลักสูตรE-learningทั้งหมด<span class="nea62">{{mockz.total_course}}</span>หลักสูตร</p>
@@ -19,7 +19,7 @@
             <font face="DB Heavent">
             <div class="row in_mid_banner" *ngFor="let mockz of mock_tbl_1">
 
-                <div class="col in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}<span><p>นิติบุคคล</p></span></p></div>
+                <div class="col in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}<span><p >นิติบุคคล</p></span></p></div>
                 <div class="col in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}<span><p>บุคคลทั่วไป</p></span></p></div>
               </div>
 
@@ -48,12 +48,72 @@
             </div>
         </div>
 
-      <div class="col-sm-3" >
+      <div class="col-3" >
             <div class="col in_thai_banner">
                 <div class=col class="in_thai_banner1">
                   <font face="DB Heavent">
                     <p class="access_country">การเข้าถึงแต่ละภาคส่วน<br>ของประเทศ</p>
-                    <img class="thai_pic" [src]=" '../assets/ThaiMapp.png' ">
+                    <div class="thai_pic"></div>
+                    <div class="row">
+                        <div class="col norths">ภาคเหนือ
+                            <ul style="font-size: 20px;font-weight: 400;">
+                                <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[0].amounts}},{{mock_tbl_7[0].percentage}}</li>
+                                <li>จังหวัดยอดนิยม:{{mock_tbl_7[0].provinces}}</li>
+                                <li>หลักสูตรยอดนิยม:{{mock_tbl_7[0].course_name}}</li>
+                            </ul>
+                        </div>
+                        <div class="col esans">ภาคตะวันออกเฉียงเหนือ
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[1].amounts}},{{mock_tbl_7[1].percentage}}</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[1].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[1].course_name}}</li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col wests">ภาคตะวันตก
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[2].amounts}},{{mock_tbl_7[2].percentage}}</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[2].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[2].course_name}}</li>
+                        </ul>
+                        </div>
+                        <div class="col easts">ภาคตะวันออก
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[5].amounts}},{{mock_tbl_7[5].percentage}}</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[5].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[5].course_name}}</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col mids">ภาคกลาง
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[3].amounts}},{{mock_tbl_7[3].percentage}}</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[3].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[3].course_name}}</li>
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col peri">กรุงเทพและปริมณฑล
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[4].amounts}},{{mock_tbl_7[4].percentage}}</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[4].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[4].course_name}}</li>
+
+                        </ul>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col souths">ภาคใต้
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[6].amounts}},{{mock_tbl_7[6].percentage}}</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[6].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[6].course_name}}</li>
+                        </ul>
+                        </div>
+                      </div>
                   </font>
 
                 </div>
@@ -98,7 +158,7 @@
                       <p style="color:#79FE6E;font-size: 28px;">ความรู้เบื้องต้นด้านการส่งออก</p>
                       <p style="color:#79FE6E;font-size: 28px;">ความรู้ด้าน E-Commerce และการค้ายุคใหม่</p>
                       <p style="color:#79FE6E;font-size: 28px;">ความรู้ด้านการเจาะตลาดต่างประเทศ</p>
-                      <p style="color:#FFF;font-size:24px;font-weight:500;">จากหลักสูตรการเรียนการสอนผ่านระบบ E-Learning 59 หลักสูตร</p>
+
                       </font>
                     </div>
                 </div>
