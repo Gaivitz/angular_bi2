@@ -65,22 +65,39 @@
 
 .tops
 {
+  font-size: 32px;
   font-weight: bold;
   color: #FFF;
 }
 .normal_people
 {
-  padding-top: 35%;
+  padding-top: 25%;
   text-align: center;
-  font-size: 36px;
+  font-size: 60px;
   color: #FFFFFF;
 
 }
 .legal_people
 {
-  padding-top: 35%;
+  padding-top: 25%;
   text-align: center;
-  font-size: 36px;
+  font-size: 60px;
+  color: #FFFFFF;
+
+}
+.normal_people1
+{
+
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+
+}
+.legal_people1
+{
+
+  text-align: center;
+  font-size: 24px;
   color: #FFFFFF;
 
 }
