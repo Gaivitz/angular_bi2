@@ -7,7 +7,7 @@
         <div class="logo1"><img [src]=" '../assets/logo1.png' ">NEA(E-Academy)</div>
       </font>
     </div>
-      <div class="col-sm-3 f_up_banner">
+      <div class="col-4 f_up_banner">
             <font face="DB Heavent" *ngFor="let mockz of mock_tbl_1">
             <p class="nea1">NEA</p>
             <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการกว่า</p>
@@ -19,17 +19,16 @@
             <font face="DB Heavent">
             <div class="row in_mid_banner" *ngFor="let mockz of mock_tbl_1">
 
-                <div class="col in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}<span><p >นิติบุคคล</p></span></p></div>
-                <div class="col in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}<span><p>บุคคลทั่วไป</p></span></p></div>
+                <div class="col-6 in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}<span><p >นิติบุคคล</p></span></p></div>
+                <div class="col-6 in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}<span><p>บุคคลทั่วไป</p></span></p></div>
               </div>
-
-              </font>
-
+            </font>
+           <div class="row">
             <div class="col in_low_banner">
               <font face="DB Heavent">
                 <div class="col in_low_banner1">
 
-              <h3><p style="color:#FFF" class="tops">กิจกรรมที่มีผู้ประกอบการ NEA เข้าร่วม</p></h3>
+              <p class="tops">กิจกรรมที่มีผู้ประกอบการ NEA เข้าร่วม</p>
               <table class="t1" width=100%>
                 <tr>
                     <th>การต่อยอดกิจกรรม</th>
@@ -46,74 +45,75 @@
               </div>
             </font>
             </div>
+          </div>
         </div>
-
       <div class="col-3" >
             <div class="col in_thai_banner">
                 <div class=col class="in_thai_banner1">
+
                   <font face="DB Heavent">
                     <p class="access_country">การเข้าถึงแต่ละภาคส่วน<br>ของประเทศ</p>
-                    <div class="thai_pic"></div>
+
                     <div class="row">
                         <div class="col norths">ภาคเหนือ
-                            <ul style="font-size: 20px;font-weight: 400;">
-                                <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[0].amounts}},{{mock_tbl_7[0].percentage}}</li>
+                            <ul>
+                                <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[0].amounts}}ราย({{mock_tbl_7[0].percentage}})</li>
                                 <li>จังหวัดยอดนิยม:{{mock_tbl_7[0].provinces}}</li>
-                                <li>หลักสูตรยอดนิยม:{{mock_tbl_7[0].course_name}}</li>
+                                <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[0].course_name}}</li>
                             </ul>
                         </div>
                         <div class="col esans">ภาคตะวันออกเฉียงเหนือ
-                          <ul style="font-size: 20px;font-weight: 400;">
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[1].amounts}},{{mock_tbl_7[1].percentage}}</li>
+                          <ul>
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[1].amounts}}ราย({{mock_tbl_7[1].percentage}})</li>
                             <li>จังหวัดยอดนิยม:{{mock_tbl_7[1].provinces}}</li>
-                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[1].course_name}}</li>
+                            <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[1].course_name}}</li>
                         </ul>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col wests">ภาคตะวันตก
-                          <ul style="font-size: 20px;font-weight: 400;">
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[2].amounts}},{{mock_tbl_7[2].percentage}}</li>
+                          <ul>
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[2].amounts}}ราย({{mock_tbl_7[2].percentage}})</li>
                             <li>จังหวัดยอดนิยม:{{mock_tbl_7[2].provinces}}</li>
-                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[2].course_name}}</li>
+                            <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[2].course_name}}</li>
                         </ul>
                         </div>
-                        <div class="col easts">ภาคตะวันออก
-                          <ul style="font-size: 20px;font-weight: 400;">
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[5].amounts}},{{mock_tbl_7[5].percentage}}</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[5].provinces}}</li>
-                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[5].course_name}}</li>
-                        </ul>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col mids">ภาคกลาง
-                          <ul style="font-size: 20px;font-weight: 400;">
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[3].amounts}},{{mock_tbl_7[3].percentage}}</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[3].provinces}}</li>
-                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[3].course_name}}</li>
-                        </ul>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col peri">กรุงเทพและปริมณฑล
-                          <ul style="font-size: 20px;font-weight: 400;">
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[4].amounts}},{{mock_tbl_7[4].percentage}}</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[4].provinces}}</li>
-                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[4].course_name}}</li>
 
+                      </div>
+                      <div class="row">
+                        <div class="col-6 mids">ภาคกลาง
+                          <ul style="font-size: 20px;font-weight: 400;">
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[3].amounts}}ราย({{mock_tbl_7[3].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[3].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[3].course_name}}</li>
+                        </ul>
+
+                        </div>
+                        <div class="col-6 easts">ภาคตะวันออก
+                          <ul>
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[5].amounts}}ราย({{mock_tbl_7[5].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[5].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[5].course_name}}</li>
                         </ul>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col souths">ภาคใต้
-                          <ul style="font-size: 20px;font-weight: 400;">
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[6].amounts}},{{mock_tbl_7[6].percentage}}</li>
+                        <div class="col-6 peri">กรุงเทพและปริมณฑล
+                          <ul>
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[4].amounts}}ราย({{mock_tbl_7[4].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[4].provinces}}</li>
+                            <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[4].course_name}}</li>
+                        </ul>
+                        </div>
+                        <div class="col-6 souths">ภาคใต้
+                          <ul>
+                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[6].amounts}}ราย({{mock_tbl_7[6].percentage}})</li>
                             <li>จังหวัดยอดนิยม:{{mock_tbl_7[6].provinces}}</li>
-                            <li>หลักสูตรยอดนิยม:{{mock_tbl_7[6].course_name}}</li>
+                            <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[6].course_name}}</li>
                         </ul>
                         </div>
                       </div>
+
                   </font>
 
                 </div>
@@ -123,12 +123,33 @@
       <div class="col">
           <div class="row t_up_banner">
                 <div class="col-md-7 t_up_banner1">
-                    <font face="DB heavent"><p class="cus_jur">Customer's Journy</p></font>
-                    <img class="world_map" [src]=" './assets/worldMap.png' ">
+                    <font face="DB heavent">
+                      <p class="cus_jur">Customer's Journy</p>
+                    <div class="world_map">
+                        <div class="row" >
+                          <div class="col american">{{mock_tbl_8[0].country_name+mock_tbl_8[0].users+"ราย"+"("+mock_tbl_8[0].freq+"ครั้ง"+")"}}</div>
+                      </div>
+                        <div class="row">
+                            <div class="col europe">{{mock_tbl_8[1].country_name+mock_tbl_8[1].users+"ราย"+"("+mock_tbl_8[1].freq+"ครั้ง"+")"}}</div>
+                          </div>
+                        <div class="row">
+                            <div class="col mid-east">{{mock_tbl_8[2].country_name+mock_tbl_8[2].users+"ราย"+"("+mock_tbl_8[2].freq+"ครั้ง"+")"}}</div>
+                        </div>
+                        <div class="row">
+                          <div class="col south-asia">{{mock_tbl_8[3].country_name+mock_tbl_8[3].users+"ราย"+"("+mock_tbl_8[3].freq+"ครั้ง"+")"}}</div>
+                      </div>
+                      <div class="row">
+                        <div class="col east-asia">{{mock_tbl_8[4].country_name+mock_tbl_8[4].users+"ราย"+"("+mock_tbl_8[4].freq+"ครั้ง"+")"}}</div>
+                    </div>
+                    <div class="row">
+                      <div class="col AEC">{{mock_tbl_8[5].country_name+mock_tbl_8[5].users+"ราย"+"("+mock_tbl_8[5].freq+"ครั้ง"+")"}}</div>
+                  </div>
+                    </div>
+                  </font>
                 </div>
                 <div class="col t_up_banner2">
                   <font face="DB Heavent">
-                  <h2><p style="color:#FFF" class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p></h2>
+                  <h2><p class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p></h2>
                   </font>
                   <font face="DB Heavent">
                   <table class="t2" width=100%>
@@ -184,7 +205,8 @@
                                     </tr>
 
                                 </table>
-                                <p style="font-weight: bold;color:#FFF;">รวม:999</p>
+                                <p style="font-weight: bold;color:#FFF;">รวม:{{getSumofCube()}}</p>
+
                                 </font>
                           </div>
                       </div>

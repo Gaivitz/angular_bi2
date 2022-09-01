@@ -7,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppComponent implements OnInit{
   title = 'AngBi2';
+  xSum : number = 0
   mock_tbl_1 = [
     {
       shareholders:6747,peoples:1234,legal_person:24,normal_people:3459,total_course:59
@@ -66,33 +67,63 @@ export class AppComponent implements OnInit{
   ]
   mock_tbl_7= [
     {
-      amounts:139,percentage:"3.46%" ,provinces:"เชียงราย" ,course_name:"หลักสูตรสตาร์ทอัพเบื้องต้น"
+      amounts:139,percentage:"3.46%" ,provinces:"เชียงราย" ,course_name:"สตาร์ทอัพเบื้องต้น"
     },
     {
-      amounts:356.8,percentage:"86%" ,provinces:"นครราขสีมา" ,course_name:"หลักสูตรคติเชิงออกแบบ"
+      amounts:356.8,percentage:"86%" ,provinces:"นครราขสีมา" ,course_name:"คติเชิงออกแบบ"
     },
     {
-      amounts:30,percentage:"0.7%" ,provinces:"ราชบุรี" ,course_name:"หลักสูตรธุรกิความงามระหว่างประเทศ"
+      amounts:30,percentage:"0.7%" ,provinces:"ราชบุรี" ,course_name:"ธุรกิความงามระหว่างประเทศ"
     },
     {
-      amounts:23,percentage:"0.57%" ,provinces:"พระนครศรีอยุธยา" ,course_name:"หลักสูตรภาษาจีนระหว่างประเทศ"
+      amounts:23,percentage:"0.57%" ,provinces:"พระนครศรีอยุธยา" ,course_name:"ภาษาจีนระหว่างประเทศ"
     },
     {
-      amounts:1592,percentage:"39%" ,provinces:"กรุงเทพและปริมณฑล" ,course_name:"หลักสูตรออกแบบกราฟฟิคความงามภายในประเทศ"
+      amounts:1592,percentage:"39%" ,provinces:"กรุงเทพและปริมณฑล" ,course_name:"ออกแบบกราฟฟิคความงามภายในประเทศ"
     },
     {
-      amounts:77,percentage:"1.92%" ,provinces:"ชลบุรี" ,course_name:"หลักสูตรออกแบบกราฟฟิคเพื่อการค้ายุคใหม่"
+      amounts:77,percentage:"1.92%" ,provinces:"ชลบุรี" ,course_name:"ออกแบบกราฟฟิคเพื่อการค้ายุคใหม่"
     },
     {
-      amounts:117,percentage:"2.95%" ,provinces:"ภาคใต้" ,course_name:"หลักสูตรสร้างแบรนด์ในยุคดิจิตอล"
+      amounts:117,percentage:"2.95%" ,provinces:"ภาคใต้" ,course_name:"สร้างแบรนด์ในยุคดิจิตอล"
     }
+  ]
+  mock_tbl_8=[
+    {
+      country_name:"อเมริกา",users:1,freq:2
+    },
+    {
+      country_name:"ยุโรป",users:1,freq:5
+    },
+    {
+      country_name:"ตะวันออกกลาง",users:1,freq:1
+    },
+    {
+      country_name:"เอเชียใต้",users:1,freq:14
+    },
+    {
+      country_name:"เอเชียตะวันออก",users:18,freq:18
+    },
+    {
+      country_name:"อาเซียน",users:1,freq:93
+    },
   ]
   is_selected:any=[]
   resp:any
+
   constructor(private httpR:HttpClient){}
   ngOnInit(): void
   {
   }
+  getSumofCube():number
+  {
 
+    for(const [k,v] of Object.entries(this.mock_tbl_6))
+    {
+      this.xSum = this.xSum+v.values
+
+    }
+    return this.xSum/3
+  }
 
 }
