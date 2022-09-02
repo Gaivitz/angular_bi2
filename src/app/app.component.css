@@ -1,51 +1,58 @@
 .logo1
 {
+
   font-size: 32px;
   color: #1A66B3;
 }
-
+.col-3
+{
+  margin: 0%;
+  padding:0%;
+}
 .nea1
 {
+    padding-left:20%;
+    padding-top :2.9%;
     font-size: 96px;
     font-weight: 400;
     color: #FFFFFF;
 }
 .nea2
 {
-    text-align: center;
+    padding-left:20%;
     font-size: 32px;
     color: #FFFFFF;
 }
 .nea3
 {
-  padding-left: 45%;
+  padding-left:71%;
   font-size: 60px;
   font-weight: 400;
   color: #FFFFFF;
-
 }
 .nea32
 {
-    font-size: 16px;
+  font-size: 24px;
 }
 .nea52
 {
-  font-size: 16px;
+  font-size: 24px;
 }
 .nea4
 {
-
+  padding-left:20%;
     font-size: 32px;
     color: #FFFFFF;
 }
 .nea5
 {
-    margin-left: 45%;
+  padding-left:71%;
     font-size: 60px;
     color: #FFFFFF;
 }
 .nea6
 {
+    padding-left:20%;
     font-size: 32px;
     color: #FFFFFF;
 }
@@ -65,21 +72,15 @@
 
 .tops
 {
+  padding-top:2%;
+  padding-left: 2%;
   font-size: 32px;
   font-weight: bold;
   color: #FFF;
 }
 .normal_people
 {
-  padding-top: 25%;
-  text-align: center;
-  font-size: 60px;
-  color: #FFFFFF;
-
-}
-.legal_people
-{
-  padding-top: 25%;
+  margin-top: 15%;
   text-align: center;
   font-size: 60px;
   color: #FFFFFF;
@@ -88,18 +89,24 @@
 .normal_people1
 {
 
+  color: #FFFFFF;
+  line-height: 0%;
   text-align: center;
   font-size: 24px;
+}
+.legal_people
+{
+  margin-top: 15%;
+  text-align: center;
+  font-size: 60px;
   color: #FFFFFF;
-
 }
 .legal_people1
 {
-
-  text-align: center;
-  font-size: 24px;
   color: #FFFFFF;
-
+  text-align: center;
+  line-height: 0%;
+  font-size: 24px;
 }
 .logo1
 {
@@ -108,7 +115,7 @@
 }
 .f_up_banner
 {
-  background-image: url('../assets/coop2.png') ;
+background-image: url('../assets/coop2.png') ;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -130,6 +137,7 @@
 {
   color:#FFF;
   font-size: 20px;
+
 }
 .t1>tr:first-child
 {
@@ -151,8 +159,7 @@
 }
 .in_mid_banner
 {
-
-  height: 25%;
+  height: 20%;
 }
 .in_mid_banner1
 {
@@ -167,13 +174,13 @@
 .in_thai_banner
 {
   padding:19px;
-  width:110%;
+
   background-color:rgb(40,76,151);
-  height:130%;
+
   background-image: url("../assets/Thai-EditResized.png");
   background-repeat: no-repeat;
 
-  background-position: 55% 40%;
+  background-position: 55% 60%;
 }
 
 ul
@@ -191,7 +198,7 @@ ul
 
 .esans
 {
-  margin-top:-30%;
+  margin-top: -34%;
   margin-left: 53%;
   font-size: 22px;
   font-weight: 500;
@@ -207,6 +214,7 @@ ul
 
 .easts
 {
+
   font-size: 22px;
   font-weight: 500;
   color:#FFF;
