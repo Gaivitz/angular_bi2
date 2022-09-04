@@ -124,12 +124,15 @@ background-image: url('../assets/coop2.png') ;
 {
   color:#FFF;
 }
+.t_left_banner
+{
+  margin-left: -1.4%;
+}
 .t_left_banner1
 {
+  padding: 15px;
   background-color: rgb(34,61,111);
-  width:100%;
-  margin-left: 4.5%;
-  height:220%;
+
   color:#FFF;
   font-weight: bold;
 }
@@ -250,17 +253,20 @@ ul
 
 .t_up_banner
 {
-  height:32%;
-  width: 101%;
+  margin-left : -2%;
+
 }
 .t_up_banner1
 {
-  height:140%;
+  background-image: url('../assets/World-Edit2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:70% 50%;
 }
 .t_up_banner2
 {
   background-color: rgb(52,89,160);
-  height:150%;
+
 }
 .t_low_left
 {
@@ -268,9 +274,9 @@ ul
 }
 .t_low_right
 {
-  height:100%;
-  margin-bottom:-30%;
+  margin-left:-6.5%;
   background-image: url('../assets/cargoo2.png');
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .val_export
@@ -278,14 +284,18 @@ ul
   font-size: 48px;
   color: #FFFFFF;
 }
-
+.totalX
+{
+  font-weight: 500;
+  font-size:20px;
+  color:#FFFFFF;
+}
 .t_low_right12
 {
-  margin-bottom: 15%;
+
 }
 .t_low_right13
 {
-  white-space: pre;
 
 }
 .american
@@ -332,11 +342,7 @@ ul
 }
 .world_map
 {
-  height: 100%;
-  width:100%;
-  margin-left:5.5%;
-  background-image: url('../assets/World-Edit2.png');
-  background-repeat: no-repeat;
+
 
 }
 .prog1
@@ -356,4 +362,17 @@ ul
 {
     margin-right: -5%;
     height:100%;
+}
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* Chromium */
+    width:100%;
+    height:75%;
+    padding: 0 5px;
+    transform: scale(1.2);
+}
+.prog
+{
+  margin-top: -85%;
 }

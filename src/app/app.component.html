@@ -1,4 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="vendor/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
 <div class="container-fluid">
   <div class="row">
     <div class="row logo">
@@ -57,15 +60,15 @@
                     <div class="row">
                         <div class="col norths">ภาคเหนือ
                             <ul>
-                                <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[0].amounts}}ราย({{mock_tbl_7[0].percentage}})</li>
-                                <li>จังหวัดยอดนิยม:{{mock_tbl_7[0].provinces}}</li>
+                                <li>จำนวนผู้เข้าเรียน:<span>&nbsp;</span>{{mock_tbl_7[0].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[0].percentage}})</li>
+                                <li>จังหวัดยอดนิยม:<span>&nbsp;</span>{{mock_tbl_7[0].provinces}}</li>
                                 <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[0].course_name}}</li>
                             </ul>
                         </div>
                         <div class="col esans">ภาคตะวันออกเฉียงเหนือ
                           <ul>
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[1].amounts}}ราย({{mock_tbl_7[1].percentage}})</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[1].provinces}}</li>
+                            <li>จำนวนผู้เข้าเรียน:<span>&nbsp;</span>{{mock_tbl_7[1].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[1].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:<span>&nbsp;</span>{{mock_tbl_7[1].provinces}}</li>
                             <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[1].course_name}}</li>
                         </ul>
                         </div>
@@ -73,8 +76,8 @@
                     <div class="row">
                         <div class="col-6 wests">ภาคตะวันตก
                           <ul>
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[2].amounts}}ราย({{mock_tbl_7[2].percentage}})</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[2].provinces}}</li>
+                            <li>จำนวนผู้เข้าเรียน:<span>&nbsp;</span>{{mock_tbl_7[2].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[2].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:<span>&nbsp;</span>{{mock_tbl_7[2].provinces}}</li>
                             <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[2].course_name}}</li>
                         </ul>
                         </div>
@@ -83,16 +86,16 @@
                       <div class="row">
                         <div class="col mids">ภาคกลาง
                           <ul>
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[3].amounts}}ราย({{mock_tbl_7[3].percentage}})</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[3].provinces}}</li>
+                            <li>จำนวนผู้เข้าเรียน:<span>&nbsp;</span>{{mock_tbl_7[3].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[3].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:<span>&nbsp;</span>{{mock_tbl_7[3].provinces}}</li>
                             <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[3].course_name}}</li>
                         </ul>
 
                         </div>
                         <div class="col easts">ภาคตะวันออก
                           <ul>
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[5].amounts}}ราย({{mock_tbl_7[5].percentage}})</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[5].provinces}}</li>
+                            <li>จำนวนผู้เข้าเรียน:<span>&nbsp;&nbsp;</span>{{mock_tbl_7[5].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[5].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:<span>&nbsp;&nbsp;</span>{{mock_tbl_7[5].provinces}}</li>
                             <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[5].course_name}}</li>
                         </ul>
                         </div>
@@ -100,15 +103,15 @@
                       <div class="row">
                         <div class="col peri">กรุงเทพและปริมณฑล
                           <ul>
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[4].amounts}}ราย({{mock_tbl_7[4].percentage}})</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[4].provinces}}</li>
+                            <li>จำนวนผู้เข้าเรียน:<span>&nbsp;</span>{{mock_tbl_7[4].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[4].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:<span>&nbsp;</span>{{mock_tbl_7[4].provinces}}</li>
                             <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[4].course_name}}</li>
                         </ul>
                         </div>
                         <div class="col souths">ภาคใต้
                           <ul>
-                            <li>จำนวนผู้เข้าเรียน:{{mock_tbl_7[6].amounts}}ราย({{mock_tbl_7[6].percentage}})</li>
-                            <li>จังหวัดยอดนิยม:{{mock_tbl_7[6].provinces}}</li>
+                            <li>จำนวนผู้เข้าเรียน:<span>&nbsp;</span>{{mock_tbl_7[6].amounts}}<span>&nbsp;</span>ราย<span>&nbsp;</span>({{mock_tbl_7[6].percentage}})</li>
+                            <li>จังหวัดยอดนิยม:<span>&nbsp;</span>{{mock_tbl_7[6].provinces}}</li>
                             <li>หลักสูตรยอดนิยม:<br>{{mock_tbl_7[6].course_name}}</li>
                         </ul>
                         </div>
@@ -122,7 +125,7 @@
 
       <div class="col">
           <div class="row t_up_banner">
-                <div class="col t_up_banner1">
+                <div class="col-7 t_up_banner1">
                     <font face="DB heavent">
                       <p class="cus_jur">Customer's Journy</p>
                     <div class="world_map">
@@ -147,7 +150,7 @@
                     </div>
                   </font>
                 </div>
-                <div class="col t_up_banner2">
+                <div class="col-5 t_up_banner2">
                   <font face="DB Heavent">
                   <h2><p class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p></h2>
                   </font>
@@ -156,10 +159,11 @@
                       <tr>
                           <th>ประเทศ</th>
                           &nbsp;
-                          <th align="center">จำนวนผู้เข้าร่วม</th>
+                          <th>จำนวนผู้เข้าร่วม</th>
                         </tr>
                         <tr *ngFor="let mockz of mock_tbl_5">
-                           <td>{{mockz.countries}}</td>
+                           <td align="left">{{mockz.countries}}</td>
+                           &nbsp;
                            <td align="left">{{mockz.attendee}}</td>
                       </tr>
                     </table>
@@ -168,7 +172,7 @@
           </div>
           <div class="row">
 
-                <div class="col">
+                <div class="col t_left_banner">
                     <div class="col t_left_banner1">
                       <font face="DB Heavent">
                       <h4><p class="toptal">Top 10 หลักสูตรยอดนิยม NEA (E-learning)</p></h4>
@@ -176,6 +180,7 @@
                       <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรแพลตฟอร์มออนไลน์ตลาดใหม่ไร้พรมแดน: บทบาทของ Metaverse ในไทย
                       <br> 2. หลักสูตร ออกแบบเนื้อหาเพื่อนำเสนองานเล่าอย่างไรให้เข้าใจ พูดอย่างไรให้น่าฟััง: เจรจาต่อรองทางธุรกิจเพื่อการค้าระหว่างประเทศ</p>
                       <p style="color:#79FE6E;font-size: 28px;">The Guru ปันความรู้ จากกูรู สู่ภูมิภาค</p>
+                      <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรธุรกิจความงานสู่การค้าระหว่างประเทศ<br>2.หลักสูตรการสร้างเทคโนโลยี AI เพื่อสุขภาพและการส่งออก</p>
                       <p style="color:#79FE6E;font-size: 28px;">ความรู้เบื้องต้นด้านการส่งออก</p>
                       <p style="color:#79FE6E;font-size: 28px;">ความรู้ด้าน E-Commerce และการค้ายุคใหม่</p>
                       <p style="color:#79FE6E;font-size: 28px;">ความรู้ด้านการเจาะตลาดต่างประเทศ</p>
@@ -185,47 +190,48 @@
                 </div>
                 <div class="col" >
                     <div class = "row t_low_right">
-                          <div class="col t_low_right12">
+                          <div class="col-5 t_low_right12">
                               <font face="DB Heavent">
                               <p class="val_export">มูลค่า<br>ส่ง​ออกรวม<br>ปี2022</p>
                               </font>
                           </div>
-                          <div class="col t_low_right13">
+                          <div class="col-7 t_low_right13">
                                 <font face="DB Heavent">
                                   <p style="font-size: 28px;font-weight:bold;color:#FFF;">Top 5 ประเทศที่ส่งออกมูลค่าสูงสุด<p>
-                                <table class="tbl_rec">
+                                <table class="tbl_rec" width="100%">
                                     <tr>
                                         <th>ประเทศ</th>
                                         <th>มูลค่าสูงสุด(ลบ.)</th>
+
                                     </tr>
 
                                     <tr style="font-size: 20px;font-weight:400;color:#FFF;" *ngFor="let mockz of mock_tbl_6">
-                                        <td>{{mockz.countries}}</td>
+                                        <td align="left">{{mockz.countries}}</td>
                                         <td align="center">{{mockz.values}}</td>
                                     </tr>
-
                                 </table>
-                                <p style="font-weight: bold;color:#FFF;">รวม:{{getSumofCube()}}</p>
-
+                                <p class="totalX">รวม <span>&emsp;{{getSumofCube()}}</span></p>
                                 </font>
                           </div>
                       </div>
                       <div class = "row t_low_right2">
-                        <p style="font-size: 24px;font-weight: 500px;color:#1D3C73;">สัดส่วนประเภทผู้ประกอบการ</p>
+                        <p style="font-size: 24px;font-weight: 500px;color:#1D3C73;">มูลค่าส่งออกร่วมของผู้ประกอบการ</p>
                         <font face="DB Heavent">
-                          <div class="row">
-
-                            <div class="col">
-                                <p class="col prog1">มูลค่าส่งออก<br>ไม่เกิน 100 ล้านบาท (S)</p>
+                          <div class="row prog">
+                            <div class="col-4 prog1">
+                                <input type="range" orient="vertical"><br><br>
+                                <p class="col align-items-center prog1">มูลค่าส่งออก<br>ไม่เกิน 100 ล้านบาท (S)</p>
 
                             </div>
 
-                            <div class="col prog2">
+                            <div class="col-4 justify-content-between prog2">
+                              <input type="range" orient="vertical"><br><br>
                               <p>มูลค่าส่งออก<br>มากกว่า 100 - 500 ล้านบาท (M)</p>
                             </div>
 
-                            <div class="col prog3">
-                             <p>มูลค่าส่งออก<br>มากกว่า 500 ล้านบาท (L)</p><br><br><br></div>
+                            <div class="col-4 justify-content-between prog3">
+                              <input type="range" orient="vertical"><br><br>
+                             <p>มูลค่าส่งออก<br>มากกว่า 500 ล้านบาท (L)</p><br></div>
 
                           </div>
                     </font>
@@ -236,3 +242,4 @@
 
     </div>
 </div>
+

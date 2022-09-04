@@ -1,11 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Chart } from "chart.js"
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+
   title = 'AngBi2';
   xSum : number = 0
   mock_tbl_1 = [
@@ -67,25 +69,25 @@ export class AppComponent implements OnInit{
   ]
   mock_tbl_7= [
     {
-      amounts:139,percentage:"3.46%" ,provinces:"เชียงราย" ,course_name:"สตาร์ทอัพเบื้องต้น"
+      amounts:139,percentage:" 3.46% " ,provinces:"เชียงราย" ,course_name:"สตาร์ทอัพเบื้องต้น"
     },
     {
-      amounts:356.8,percentage:"86%" ,provinces:"นครราขสีมา" ,course_name:"คติเชิงออกแบบ"
+      amounts:356.8,percentage:" 86% " ,provinces:"นครราขสีมา" ,course_name:"คติเชิงออกแบบ"
     },
     {
-      amounts:30,percentage:"0.7%" ,provinces:"ราชบุรี" ,course_name:"ธุรกิความงามระหว่างประเทศ"
+      amounts:30,percentage:" 0.7% " ,provinces:"ราชบุรี" ,course_name:"ธุรกิความงามระหว่างประเทศ"
     },
     {
-      amounts:23,percentage:"0.57%" ,provinces:"พระนครศรีอยุธยา" ,course_name:"ภาษาจีนระหว่างประเทศ"
+      amounts:23,percentage:" 0.57% " ,provinces:"พระนครศรีอยุธยา" ,course_name:"ภาษาจีนระหว่างประเทศ"
     },
     {
-      amounts:1592,percentage:"39%" ,provinces:"กรุงเทพและปริมณฑล" ,course_name:"ออกแบบกราฟฟิคความงามภายในประเทศ"
+      amounts:1592,percentage:" 39% " ,provinces:"กรุงเทพและปริมณฑล" ,course_name:"ออกแบบกราฟฟิคความงามภายในประเทศ"
     },
     {
-      amounts:77,percentage:"1.92%" ,provinces:"ชลบุรี" ,course_name:"ออกแบบกราฟฟิคเพื่อการค้ายุคใหม่"
+      amounts:77,percentage:" 1.92% " ,provinces:"ชลบุรี" ,course_name:"ออกแบบกราฟฟิคเพื่อการค้ายุคใหม่"
     },
     {
-      amounts:117,percentage:"2.95%" ,provinces:"ภาคใต้" ,course_name:"สร้างแบรนด์ในยุคดิจิตอล"
+      amounts:117,percentage:" 2.95% " ,provinces:"ภาคใต้" ,course_name:"สร้างแบรนด์ในยุคดิจิตอล"
     }
   ]
   mock_tbl_8=[
