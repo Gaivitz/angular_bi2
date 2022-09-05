@@ -1,8 +1,8 @@
 .logo1
 {
-
-  font-size: 32px;
-  color: #1A66B3;
+ font-size: 32px;
+ font-weight: 500;
+  color:#1A66B3;
 }
 .col-3
 {
@@ -19,18 +19,20 @@
 }
 .nea1
 {
-    padding-left:20%;
-
+    padding-left:15%;
+    padding-top:5%;
+    line-height: 80%;
     font-size: 96px;
     font-weight: 400;
     color: #FFFFFF;
-
 }
 .nea2
 {
-    margin-left:10%;
+    padding-left:15%;
     font-size: 32px;
     color: #FFFFFF;
+    line-height: 30%;
+
 }
 .nea3
 {
@@ -49,7 +51,7 @@
 }
 .nea4
 {
-    padding-left: 10%;
+  padding-left:15%;
     font-size: 32px;
     color: #FFFFFF;
 }
@@ -61,22 +63,25 @@
 }
 .nea6
 {
-    padding-left:10%;
+    padding-left:15%;
     font-size: 32px;
     color: #FFFFFF;
 }
 .toptal
 {
+
   font-size: 32px;
-  font-weight: 500px;
+  font-weight: 500;
+
 }
 .access_country
 {
-  padding-right: 31px;
   color : #FFF;
+  line-height: 90%;
   text-align: right;
   font-weight: 500;
   font-size: 48px;
+
 }
 
 .tops
@@ -89,29 +94,38 @@
 }
 .normal_people
 {
+
+  margin-top: 28%;
   text-align: center;
   font-size: 60px;
   color: #FFFFFF;
+  line-height: 25%;
+
 }
 .normal_people1
 {
   color: #FFFFFF;
   text-align: center;
   font-size: 24px;
-  line-height: 0%;
+
+
 }
 .legal_people
 {
+  margin-top: 28%;
   text-align: center;
   font-size: 60px;
   color: #FFFFFF;
+  line-height: 30%;
+
 }
 .legal_people1
 {
+
   color: #FFFFFF;
   text-align: center;
   font-size: 24px;
-  line-height: 0%;
+
 }
 .logo1
 {
@@ -122,7 +136,7 @@
 
 .top_five
 {
-
+  padding: 12px;
   font-size: 28px;
   font-weight: bold;
   color:#FFF;
@@ -130,10 +144,11 @@
 .t_left_banner
 {
   margin-left: -1.4%;
+
 }
 .t_left_banner1
 {
-  padding: 15px;
+  padding : 15px;
   background-color: rgb(34,61,111);
   color:#FFF;
   font-weight: bold;
@@ -153,13 +168,16 @@ td
 }
 .t2
 {
+  padding:-10px;
+  font-weight: 400;
   white-space: nowrap;
   color:#FFF;
   font-size: 20px;
 }
 .tbl_rec
 {
-  width: 90%;
+  margin-left:25%;
+  padding:20px;
   color : #FFF;
 }
 .tbl_rec, tr:first-of-type
@@ -169,6 +187,7 @@ td
 .in_mid_banner
 {
   margin-top:-3.2%;
+  height: 17%;
 }
 .in_mid_banner1
 {
@@ -182,12 +201,9 @@ td
 {
   margin-left: 2.5%;
   padding:20px;
-
   background-color:rgb(40,76,151);
-
   background-image: url("../assets/Thai-EditResized.png");
   background-repeat: no-repeat;
-
   background-position: 55% 60%;
 }
 
@@ -206,7 +222,7 @@ ul
 
 .esans
 {
-  margin-top: -34%;
+  margin-top: -38%;
   margin-left: 53%;
   font-size: 22px;
   font-weight: 500;
@@ -289,14 +305,23 @@ ul
 }
 .val_export
 {
+  padding:15px;
+  line-height: 120%;
+  white-space: nowrap;
   font-size: 48px;
   color: #FFFFFF;
 }
 .totalX
 {
+  padding-left:25%;
   font-weight: 500;
   font-size:20px;
   color:#FFFFFF;
+}
+.totalX1
+{
+  white-space:nowrap;
+  padding-left: 170%;
 }
 .t_low_right12
 {
@@ -304,7 +329,7 @@ ul
 }
 .t_low_right13
 {
-  margin-left: -3%;
+
 }
 .american
 {
@@ -353,6 +378,7 @@ ul
 
   text-align: center;
   color:#2E58A5;
+  font-weight: 500;
   font-size: 48px;
 }
 .world_map
@@ -388,5 +414,5 @@ input[type=range][orient=vertical]
 }
 .prog
 {
-  margin-top: -50%;
+
 }

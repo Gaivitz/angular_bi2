@@ -1,12 +1,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <div class="container-fluid">
+  <font face="DB Heavent"><div class="logo1"><img [src]=" '../assets/logo1.png' "> <span>NEA(E-Academy)</span></div></font>
   <div class="row">
-    <div class="row logo">
-      <font face="DB Heavent">
-        <div class="logo1"><img [src]=" '../assets/logo1.png' ">NEA(E-Academy)</div>
-      </font>
-    </div>
+
       <div class="col-3 f_up_banner">
             <div class="col f_up_banner1">
             <font face="DB Heavent" *ngFor="let mockz of mock_tbl_1">
@@ -22,8 +19,8 @@
 
             <div class="row in_mid_banner" *ngFor="let mockz of mock_tbl_1">
 
-                <div class="col-6 in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}</p> <span><p class="legal_people1">นิติบุคคล</p></span></div>
-                <div class="col-6 in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}</p> <span><p class="normal_people1">บุคคลทั่วไป</p></span></div>
+                <div class="col-6 in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}</p> <p class="legal_people1">นิติบุคคล</p></div>
+                <div class="col-6 in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}</p> <p class="normal_people1">บุคคลทั่วไป</p></div>
               </div>
             </font>
            <div class="row">
@@ -127,7 +124,7 @@
           <div class="row t_up_banner">
                 <div class="col-8 t_up_banner1">
                     <font face="DB heavent">
-                      <p class="cus_jur">Customer's Journy</p>
+                      <p class="cus_jur">Customer's Journey</p>
                     <div class="world_map">
                         <div class="row" >
                           <div class="col american">{{mock_tbl_8[0].country_name+" "+mock_tbl_8[0].users+" ราย"+" ("+mock_tbl_8[0].freq+"ครั้ง"+")"}}</div>
@@ -158,7 +155,7 @@
                 </div>
                 <div class="col-4 t_up_banner2">
                   <font face="DB Heavent">
-                  <h2><p class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p></h2>
+                  <p class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p>
                   </font>
                   <font face="DB Heavent">
                   <table class="t2" width=100%>
@@ -178,37 +175,40 @@
           </div>
           <div class="row">
 
-                <div class="col t_left_banner">
+                <div class="col-6 t_left_banner">
                     <div class="col t_left_banner1">
                       <font face="DB Heavent">
-                      <h4><p class="toptal">Top 10 หลักสูตรยอดนิยม NEA (E-learning)</p></h4>
-                      <p style="color:#79FE6E;font-size: 28px;">การค้าระหว่างประเทศ</p>
+                      <p class="toptal">TOP 10 หลักสูตรยอดนิยม NEA (E-learning)</p>
+                      <p style="color:#79FE6E;font-size: 28px;font-weight:bold;line-height: 5%;">การค้าระหว่างประเทศ</p>
                       <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรแพลตฟอร์มออนไลน์ตลาดใหม่ไร้พรมแดน: บทบาทของ Metaverse ในไทย
                       <br> 2. หลักสูตร ออกแบบเนื้อหาเพื่อนำเสนองานเล่าอย่างไรให้เข้าใจ พูดอย่างไรให้น่าฟััง: เจรจาต่อรองทางธุรกิจเพื่อการค้าระหว่างประเทศ</p>
-                      <p style="color:#79FE6E;font-size: 28px;">The Guru ปันความรู้ จากกูรู สู่ภูมิภาค</p>
+                      <p style="color:#79FE6E;font-size: 28px;font-weight:bold;line-height: 5%;">The Guru ปันความรู้ จากกูรู สู่ภูมิภาค</p>
                       <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรธุรกิจความงานสู่การค้าระหว่างประเทศ<br>2.หลักสูตรการสร้างเทคโนโลยี AI เพื่อสุขภาพและการส่งออก</p>
-                      <p style="color:#79FE6E;font-size: 28px;">ความรู้เบื้องต้นด้านการส่งออก</p>
-                      <p style="color:#79FE6E;font-size: 28px;">ความรู้ด้าน E-Commerce และการค้ายุคใหม่</p>
-                      <p style="color:#79FE6E;font-size: 28px;">ความรู้ด้านการเจาะตลาดต่างประเทศ</p>
-
+                      <p style="color:#79FE6E;font-size: 28px;font-weight:bold;line-height: 5%;">ความรู้เบื้องต้นด้านการส่งออก</p>
+                      <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรความรู้การส่งออกสร้างผู้ประกอบการรุ่นใหม่ (Gen Z)<br>2. หลักสูตรการค้าระหว่างประเทศเบื้องต้น</p>
+                      <p style="color:#79FE6E;font-size: 28px;font-weight:bold;line-height: 5%;">ความรู้ด้าน E-Commerce และการค้ายุคใหม่</p>
+                      <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรการตลาดดิจิทัล<br>2. หลักสูตรสตาร์ทอัพเบื้องต้น</p>
+                      <p style="color:#79FE6E;font-size: 28px;font-weight:bold;line-height: 5%;">ความรู้ด้านการเจาะตลาดต่างประเทศ</p>
+                      <p style="color:#FFF;font-weight: 400;font-size: 22px;">1. หลักสูตรการตลาดออนไลน์ในประเทศจีน<br>2. หลักสูตรเจาะลึกตลาดการค้า CLMV</p>
                       </font>
                     </div>
                 </div>
                 <div class="col" >
                     <div class = "row t_low_right">
-                          <div class="col-5 t_low_right12">
+                          <div class="col-3 t_low_right12">
                               <font face="DB Heavent">
                               <p class="val_export">มูลค่า<br>ส่ง​ออกรวม<br>ปี2022</p>
                               </font>
                           </div>
-                          <div class="col-7 t_low_right13">
+                          <div class="col-4 t_low_right13">
                                 <font face="DB Heavent">
-                                  <p style="font-size: 28px;font-weight:bold;color:#FFF;">Top 5 ประเทศที่ส่งออกมูลค่าสูงสุด<p>
+
                                 <table class="tbl_rec" width="100%">
+                                  <p style="font-size: 28px;font-weight:bold;color:#FFF;white-space:pre;">Top 5 ประเทศที่ส่งออกมูลค่าสูงสุด<p>
                                     <tr>
                                         <th>ประเทศ</th>
                                         &nbsp;
-                                        <th style="white-space:pre;">มูลค่าสูงสุด(ลบ.)</th>
+                                        <th style="white-space:nowrap;">มูลค่าสูงสุด(ลบ.)</th>
 
                                     </tr>
 
@@ -218,13 +218,14 @@
                                         <td align="center">{{mockz.values}}</td>
                                     </tr>
                                 </table>
-                                <p class="totalX">รวม <span>&emsp;{{getSumofCube()}}</span></p>
+                                <p class="totalX">รวม<span class="totalX1">{{getSumofCube()}}</span></p>
                                 </font>
                           </div>
                       </div>
                       <div class = "row t_low_right2">
-                        <p style="font-size: 24px;font-weight: 500px;color:#1D3C73;">มูลค่าส่งออกร่วมของผู้ประกอบการ</p>
                         <font face="DB Heavent">
+                        <p style="font-size: 24px;font-weight: 500px;color:#1D3C73;">มูลค่าส่งออกร่วมของผู้ประกอบการ</p>
+
                           <div class="row prog">
                             <div class="col-4 prog1">
                                 <input type="range" orient="vertical"><br><br>
