@@ -1,16 +1,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript" src="vendor/jquery.min.js"></script>
-<script
-	src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+
 <div class="container-fluid">
   <div class="row">
     <div class="row logo">
       <font face="DB Heavent">
-
         <div class="logo1"><img [src]=" '../assets/logo1.png' ">NEA(E-Academy)</div>
       </font>
     </div>
-      <div class="col-4 f_up_banner">
+      <div class="col-3 f_up_banner">
+            <div class="col f_up_banner1">
             <font face="DB Heavent" *ngFor="let mockz of mock_tbl_1">
             <p class="nea1">NEA</p>
             <p class="nea2">เข้าถึงประชาชนและผู้ประกอบการกว่า</p>
@@ -19,11 +17,13 @@
             <p class="nea5">{{mockz.peoples}} <span class="nea52">ราย</span></p>
             <p class="nea6">จากหลักสูตรE-learningทั้งหมด<span class="nea62">{{mockz.total_course}}</span>หลักสูตร</p>
             </font>
+            </div>
             <font face="DB Heavent">
+
             <div class="row in_mid_banner" *ngFor="let mockz of mock_tbl_1">
 
-                <div class="col in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}</p> <span><p class="legal_people1">นิติบุคคล</p></span></div>
-                <div class="col in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}</p> <span><p class="normal_people1">บุคคลทั่วไป</p></span></div>
+                <div class="col-6 in_mid_banner1"><p class="legal_people">{{mockz.legal_person}}</p> <span><p class="legal_people1">นิติบุคคล</p></span></div>
+                <div class="col-6 in_mid_banner2"><p class="normal_people">{{mockz.normal_people}}</p> <span><p class="normal_people1">บุคคลทั่วไป</p></span></div>
               </div>
             </font>
            <div class="row">
@@ -40,7 +40,7 @@
                     <tr *ngFor="let mockz of mock_tbl_2">
                         <td>{{mockz.activity_name}}</td>
                         &nbsp;
-                        <td>{{mockz.attendee}}</td>
+                        <td align="center">{{mockz.attendee}}</td>
 
                   </tr>
 
@@ -125,32 +125,38 @@
 
       <div class="col">
           <div class="row t_up_banner">
-                <div class="col-7 t_up_banner1">
+                <div class="col-8 t_up_banner1">
                     <font face="DB heavent">
                       <p class="cus_jur">Customer's Journy</p>
                     <div class="world_map">
                         <div class="row" >
-                          <div class="col american">{{mock_tbl_8[0].country_name+mock_tbl_8[0].users+"ราย"+"("+mock_tbl_8[0].freq+"ครั้ง"+")"}}</div>
+                          <div class="col american">{{mock_tbl_8[0].country_name+" "+mock_tbl_8[0].users+" ราย"+" ("+mock_tbl_8[0].freq+"ครั้ง"+")"}}</div>
                       </div>
                         <div class="row">
-                            <div class="col europe">{{mock_tbl_8[1].country_name+mock_tbl_8[1].users+"ราย"+"("+mock_tbl_8[1].freq+"ครั้ง"+")"}}</div>
+                            <div class="col europe">{{mock_tbl_8[1].country_name+" "+mock_tbl_8[1].users+" ราย"+" ("+mock_tbl_8[1].freq+"ครั้ง"+")"}}</div>
                           </div>
                         <div class="row">
-                            <div class="col mid-east">{{mock_tbl_8[2].country_name+mock_tbl_8[2].users+"ราย"+"("+mock_tbl_8[2].freq+"ครั้ง"+")"}}</div>
+                            <div class="col mid-east">{{mock_tbl_8[2].country_name+" "+mock_tbl_8[2].users+" ราย"+" ("+mock_tbl_8[2].freq+"ครั้ง"+")"}}</div>
                         </div>
                         <div class="row">
-                          <div class="col south-asia">{{mock_tbl_8[3].country_name+mock_tbl_8[3].users+"ราย"+"("+mock_tbl_8[3].freq+"ครั้ง"+")"}}</div>
+                          <div class="col south-asia">{{mock_tbl_8[3].country_name+" "+mock_tbl_8[3].users+" ราย"+" ("+mock_tbl_8[3].freq+"ครั้ง"+")"}}</div>
                       </div>
                       <div class="row">
-                        <div class="col east-asia">{{mock_tbl_8[4].country_name+mock_tbl_8[4].users+"ราย"+"("+mock_tbl_8[4].freq+"ครั้ง"+")"}}</div>
+                        <div class="col east-asia">{{mock_tbl_8[4].country_name+" "+mock_tbl_8[4].users+" ราย"+" ("+mock_tbl_8[4].freq+"ครั้ง"+")"}}</div>
                     </div>
                     <div class="row">
-                      <div class="col AEC">{{mock_tbl_8[5].country_name+mock_tbl_8[5].users+"ราย"+"("+mock_tbl_8[5].freq+"ครั้ง"+")"}}</div>
+                      <div class="col AEC">{{mock_tbl_8[5].country_name+" "+mock_tbl_8[5].users+" ราย"+" ("+mock_tbl_8[5].freq+"ครั้ง"+")"}}</div>
                   </div>
+                    <div class="col country_total">
+                        <font face="DB Heavent">
+                        <p>รวม 6 ราย<br>รวม 133 ครั้ง</p>
+
+                        </font>
+                    </div>
                     </div>
                   </font>
                 </div>
-                <div class="col-5 t_up_banner2">
+                <div class="col-4 t_up_banner2">
                   <font face="DB Heavent">
                   <h2><p class="top_five">Top 5 ประเทศที่มี<br>ผู้ประกอบการ NEA เข้าร่วม</p></h2>
                   </font>
@@ -162,9 +168,9 @@
                           <th>จำนวนผู้เข้าร่วม</th>
                         </tr>
                         <tr *ngFor="let mockz of mock_tbl_5">
-                           <td align="left">{{mockz.countries}}</td>
+                           <td>{{mockz.countries}}</td>
                            &nbsp;
-                           <td align="left">{{mockz.attendee}}</td>
+                           <td align="center">{{mockz.attendee}}</td>
                       </tr>
                     </table>
                   </font>
@@ -201,12 +207,14 @@
                                 <table class="tbl_rec" width="100%">
                                     <tr>
                                         <th>ประเทศ</th>
-                                        <th>มูลค่าสูงสุด(ลบ.)</th>
+                                        &nbsp;
+                                        <th style="white-space:pre;">มูลค่าสูงสุด(ลบ.)</th>
 
                                     </tr>
 
                                     <tr style="font-size: 20px;font-weight:400;color:#FFF;" *ngFor="let mockz of mock_tbl_6">
-                                        <td align="left">{{mockz.countries}}</td>
+                                        <td>{{mockz.countries}}</td>
+                                        &nbsp;
                                         <td align="center">{{mockz.values}}</td>
                                     </tr>
                                 </table>

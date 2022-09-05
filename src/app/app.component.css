@@ -9,23 +9,32 @@
   margin: 0%;
   padding:0%;
 }
+.f_up_banner1
+{
+  background-image: url('../assets/coop2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width:110%;
+
+}
 .nea1
 {
     padding-left:20%;
-    padding-top :2.9%;
+
     font-size: 96px;
     font-weight: 400;
     color: #FFFFFF;
+
 }
 .nea2
 {
-    padding-left:20%;
+    margin-left:10%;
     font-size: 32px;
     color: #FFFFFF;
 }
 .nea3
 {
-  padding-left:71%;
+  padding-left:50%;
   font-size: 60px;
   font-weight: 400;
   color: #FFFFFF;
@@ -40,19 +49,19 @@
 }
 .nea4
 {
-  padding-left:20%;
+    padding-left: 10%;
     font-size: 32px;
     color: #FFFFFF;
 }
 .nea5
 {
-  padding-left:71%;
+  padding-left:50%;
     font-size: 60px;
     color: #FFFFFF;
 }
 .nea6
 {
-    padding-left:20%;
+    padding-left:10%;
     font-size: 32px;
     color: #FFFFFF;
 }
@@ -80,23 +89,19 @@
 }
 .normal_people
 {
-  margin-top: 15%;
   text-align: center;
   font-size: 60px;
   color: #FFFFFF;
-
 }
 .normal_people1
 {
-
   color: #FFFFFF;
-  line-height: 0%;
   text-align: center;
   font-size: 24px;
+  line-height: 0%;
 }
 .legal_people
 {
-  margin-top: 15%;
   text-align: center;
   font-size: 60px;
   color: #FFFFFF;
@@ -105,23 +110,21 @@
 {
   color: #FFFFFF;
   text-align: center;
-  line-height: 0%;
   font-size: 24px;
+  line-height: 0%;
 }
 .logo1
 {
   height:120px;
   padding-left: 45%;
 }
-.f_up_banner
-{
-background-image: url('../assets/coop2.png') ;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+
 
 .top_five
 {
+
+  font-size: 28px;
+  font-weight: bold;
   color:#FFF;
 }
 .t_left_banner
@@ -132,7 +135,6 @@ background-image: url('../assets/coop2.png') ;
 {
   padding: 15px;
   background-color: rgb(34,61,111);
-
   color:#FFF;
   font-weight: bold;
 }
@@ -140,7 +142,10 @@ background-image: url('../assets/coop2.png') ;
 {
   color:#FFF;
   font-size: 20px;
-
+}
+td
+{
+  white-space: nowrap;
 }
 .t1>tr:first-child
 {
@@ -148,6 +153,7 @@ background-image: url('../assets/coop2.png') ;
 }
 .t2
 {
+  white-space: nowrap;
   color:#FFF;
   font-size: 20px;
 }
@@ -162,21 +168,20 @@ background-image: url('../assets/coop2.png') ;
 }
 .in_mid_banner
 {
-  height: 20%;
+  margin-top:-3.2%;
 }
 .in_mid_banner1
 {
   background-color: rgb(27,51,101);
-
 }
 .in_mid_banner2
 {
   background-color:rgb(56,108,245);
-
 }
 .in_thai_banner
 {
-  padding:19px;
+  margin-left: 2.5%;
+  padding:20px;
 
   background-color:rgb(40,76,151);
 
@@ -249,19 +254,22 @@ ul
 {
   background-color: rgb(13,43,110);
 }
-
+.in_low_banner1
+{
+  padding:15px;
+}
 
 .t_up_banner
 {
-  margin-left : -2%;
 
 }
 .t_up_banner1
 {
+
   background-image: url('../assets/World-Edit2.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position:70% 50%;
+  background-size:90% 50%;
+  background-position:70% 80%;
 }
 .t_up_banner2
 {
@@ -296,53 +304,59 @@ ul
 }
 .t_low_right13
 {
-
+  margin-left: -3%;
 }
 .american
 {
   color : rgb(39,84,159);
-  margin-left: 10%;
-  margin-top: 12%;
+  margin-left: 27%;
+  margin-top: 10%;
 }
 .europe
 {
   color : rgb(39,84,159);
-  margin-left:38%;
-  margin-top: -14%;
+  margin-left:50%;
+  margin-top:-10%;
 }
 .mid-east
 {
   color : rgb(39,84,159);
-  margin-left:36%;
-  margin-top:-7%;
+  margin-left: 45%;
 }
 .south-asia
 {
   color : rgb(39,84,159);
-  margin-left:52%;
-  margin-top:0.25%;
+  margin-left:60%;
+
 }
 .east-asia
 {
   color : rgb(39,84,159);
-  margin-left:60%;
+  margin-left:70%;
   margin-top:-20%;
 }
 .AEC
 {
   color : rgb(39,84,159);
   margin-top: -5%;
-  margin-left: 72%;
+  margin-left: 80%;
+}
+.country_total
+{
+  color:#2E58A5;
+  font-size: 20px;
+  white-space: nowrap;
+  font-weight: 500;
 }
 .cus_jur
 {
+
   text-align: center;
   color:#2E58A5;
   font-size: 48px;
 }
 .world_map
 {
-
 
 }
 .prog1
@@ -374,5 +388,5 @@ input[type=range][orient=vertical]
 }
 .prog
 {
-  margin-top: -85%;
+  margin-top: -50%;
 }
