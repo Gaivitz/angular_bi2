@@ -132,11 +132,9 @@
   height:120px;
   padding-left: 45%;
 }
-
-
 .top_five
 {
-  padding: 12px;
+  padding: 20px;
   font-size: 28px;
   font-weight: bold;
   color:#FFF;
@@ -144,7 +142,6 @@
 .t_left_banner
 {
   margin-left: -1.4%;
-
 }
 .t_left_banner1
 {
@@ -388,15 +385,17 @@ ul
 .prog1
 {
   color: #1D3C73;
+  text-align: center;
 }
 .prog2
 {
   color:#1D3C73;
-
+  text-align: center;
 }
 .prog3
 {
   color: #1D3C73;
+  text-align: center;
 }
 .t_low_right2
 {
